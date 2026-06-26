@@ -1209,4 +1209,10 @@ class App(_BASE):
 
 
 if __name__ == "__main__":
+    if "--probe" in sys.argv:
+        # Startup benchmark: build the GUI then exit immediately.
+        _app = App()
+        _app.update()
+        _app.destroy()
+        sys.exit(0)
     App().mainloop()
