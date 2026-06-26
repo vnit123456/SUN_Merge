@@ -1,6 +1,7 @@
-# PyInstaller build output
+# PyInstaller build output (keep the published .exe, ignore the rest)
 build/
-dist/
+dist/*
+!dist/SUN_Merge.exe
 *.spec
 
 # App-generated config (per-machine history & settings)

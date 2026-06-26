@@ -4,6 +4,12 @@ A simple, Araxis-style **folder & file compare/merge** tool for Windows — buil
 
 > Công cụ so sánh & hợp nhất thư mục / file đơn giản, giao diện kiểu Araxis Merge. **By Mr.Dai**
 
+## Download
+
+Grab the ready-to-run **[dist/SUN_Merge.exe](dist/SUN_Merge.exe)** — a single file,
+no install, no Python needed. Just download and double-click on Windows.
+(On the GitHub file page, click the **Download** / raw button to save it.)
+
 ## Features
 
 **Folder comparison**
