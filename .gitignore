@@ -1,0 +1,22 @@
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# App-generated config (per-machine history & settings)
+foldermerge_config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS / tooling
+.claude/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
