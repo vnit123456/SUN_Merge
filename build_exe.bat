@@ -6,6 +6,8 @@ if not exist "%PY%" set "PY=python"
 
 "%PY%" -m PyInstaller --noconfirm --onefile --windowed ^
     --name SUN_Merge ^
+    --icon "%~dp0sun.ico" ^
+    --add-data "%~dp0sun.ico;." ^
     --collect-all tkinterdnd2 ^
     --collect-all send2trash ^
     --distpath "%~dp0dist" ^
